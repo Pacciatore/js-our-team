@@ -1,0 +1,15 @@
+/* DEBUGGER */
+.debug main {
+    background-color: aqua;
+}
+
+.debug #team-display {
+    min-height: 500px;
+    background-color: blueviolet;
+}
+
+.debug #team-display>div {
+    min-height: 50px;
+    min-width: 50px;
+    background-color: orange;
+}
