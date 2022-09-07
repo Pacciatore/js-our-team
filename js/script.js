@@ -36,9 +36,10 @@ const teamMembers = [
 console.log('Team Members array: ', teamMembers)
 
 for (let i = 0; i < teamMembers.length; i++) {
+    const teamMate = teamMembers[i];
     console.log(i + 1 + '.');
-    console.log('Nome: ', teamMembers[i].name);
-    console.log('Ruolo: ', teamMembers[i].role);
-    console.log('Immagine: ', teamMembers[i].photo);
+    console.log('Nome: ', teamMate.name);
+    console.log('Ruolo: ', teamMate.role);
+    console.log('Immagine: ', teamMate.photo);
     console.log('--------------------');
 }
