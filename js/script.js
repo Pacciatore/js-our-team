@@ -42,10 +42,10 @@ for (let i = 0; i < teamMembers.length; i++) {
     const teamMate = teamMembers[i];
     console.log(i + 1 + '.');
 
-    teamDisplay.innerHTML += `<div class="col-12 d-flex justifiy-content-between p-3">
-        <div class="col-4"><img src="img/${teamMate.photo}" alt="${teamMate.photo}" class="img-fluid border-radius-2"/></div>
-        <div class="col-4 fw-bold text-center">${teamMate.name}</div>
-        <div class="col-4 text-center">${teamMate.role}</div>
+    teamDisplay.innerHTML += `<div class="col-4 d-flex flex-column justifiy-content-between p-3">
+        <div class="col"><img src="img/${teamMate.photo}" alt="${teamMate.photo}" class="img-fluid rounded"/></div>
+        <div class="col fw-bold text-center fs-4">${teamMate.name}</div>
+        <div class="col text-center fs-6">${teamMate.role}</div>
     </div>`;
 
     console.log('Nome: ', teamMate.name);
